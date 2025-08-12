@@ -1,0 +1,9 @@
+torch
+torchvision
+torchaudio
+opencv-python
+numpy
+Pillow
+psutil
+imageio[pyav]
+tkinter-embed
