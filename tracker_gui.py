@@ -102,8 +102,36 @@ class PointTrackerApp:
 
 
 # --- UI Elements ---
+        # Get the absolute path to the directory of the current script
+        script_dir = os.path.dirname(os.path.abspath(__file__))
+
+        # Construct the full path to the 'awthemes' subdirectory
+        theme_path = os.path.join(script_dir, "awthemes")
+
+        # Verify that the path exists (optional, but good practice)
+        if not os.path.exists(theme_path):
+            print(f"Error: The theme directory was not found at {theme_path}")
+            # You might want to handle this error more gracefully, e.g., by exiting
+            # or using a different theme.
+            exit()
+
+        root.tk.call("lappend", "auto_path", theme_path)
+
+        # The theme name (e.g., 'awdark') is specified here
+        try:
+            root.tk.call("package", "require", "awdark")
+        except tk.TclError:
+            print("Failed to load theme.")
+            exit()
+
+        style = ttk.Style(root)
+        style.theme_use("awdark")
+        
+        theme_bg = style.lookup('TFrame', 'background')
+        root.configure(bg=theme_bg)
+
         # Initialize canvas with default size, it will be resized when video loads
-        self.canvas = tk.Canvas(master, width=self.display_width, height=self.display_height, bg="black")
+        self.canvas = tk.Canvas(master, width=self.display_width, height=self.display_height, bg="black", highlightbackground="black", highlightthickness=0)
         self.canvas.pack(pady=10)
 
         # Slider
