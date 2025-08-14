@@ -18,7 +18,7 @@ you can then create a custom mask polygon that can be used in your workflow.
 4. Select up to two points in the video to track. One point will only track position data, two points will track rotation and
    scale data as well.
 5. Click 'Track Points' the CoTracker model will automatically be downloaded and tracking will begin.
-6. Once the track is finished, check it by playing back the video. If you arent happy with it, click 'Clear All' to restart.
+6. Once the track is finished, check it by playing back the video. If you aren't happy with it, click 'Clear All' to restart.
 7. Click 'Draw Mask' to draw a custom polygon on the video. Click 'Finalize Mask' to apply the tracking data to it.
    You can edit the mask by clicking 'Draw Mask' again.
 8. Click 'Export to ComfyUI' to send the tracked mask back to ComfyUI, it will automatically be updated in the node.
