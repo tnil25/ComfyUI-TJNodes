@@ -9,3 +9,17 @@ designed to streamline masking, tracking, and compositing tasks.
 The point tracker functions similarly to tracking tools found in professional software like After Effects and Blender.
 By tracking up to two points, it can calculate and generate position, rotation, and scale data. After generating a successful track
 you can then create a custom mask polygon that can be used in your workflow.
+
+## User Guide
+
+1. Drop the Point Tracker node on to the Canvas.
+2. Click 'Track Video' to open the Point Tracker GUI.
+3. Click 'Load Video' and locate the video file you wish to track.
+4. Select up to two points in the video to track. One point will only track position data, two points will track rotation and
+   scale data as well.
+5. Click 'Track Points' The CoTracker model will automatically be downloaded and tracking will begin.
+6. Once the track is finished, check it by playing back the video. If you arent happy with it, click 'Clear All' to restart.
+7. Click 'Draw Mask' to draw a custom polygon on the video. Click 'Finalize Mask' to apply the tracking data to it.
+   You can edit the mask by clicking 'Draw Mask' again.
+8. Click 'Export to ComfyUI' to send the tracked mask back to ComfyUI, it will automatically be updated in the node.
+9. You can also use 'Export As..." to save the mask to any location on your computer.
