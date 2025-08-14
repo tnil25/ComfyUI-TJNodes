@@ -12,7 +12,7 @@ you can then create a custom mask polygon that can be used in your workflow.
 
 ## User Guide
 
-1. Drop the Point Tracker node on to the Canvas.
+1. Drop the Point Tracker node on to the canvas.
 2. Click 'Track Video' to open the Point Tracker GUI.
 3. Click 'Load Video' and locate the video file you wish to track.
 4. Select up to two points in the video to track. One point will only track position data, two points will track rotation and
