@@ -26,6 +26,9 @@ you can then create a custom mask polygon that can be used in your workflow.
 8. Click 'Export to ComfyUI' to send the tracked mask back to ComfyUI, it will automatically be updated in the node.
 9. You can also use 'Export As..." to save the mask to any location on your computer.
 
+IMPORTANT: Masks are not saved with your workflows, the GUI stores them in the temp folder which is cleared when ComfyUI is restarted.
+If you plan on using the same mask again, use 'Export As...' to save it somewhere on your computer.
+
 ## Tips
 
 * Point tracking works best when tracking contrasting areas of an image (eg. a button on a shirt, the corner of a window, a letter on a keyboard, etc.)
