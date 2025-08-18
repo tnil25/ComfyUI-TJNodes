@@ -10,7 +10,7 @@ The Point Tracker functions similarly to tracking tools found in professional so
 By tracking up to two points, it can calculate and generate position, rotation, and scale data. After generating a successful track
 you can then create a custom mask polygon that can be used in your workflow.
 
-![image]https://github.com/tnil25/ComfyUI-TJNodes/blob/master/images/pt_demo-ezgif.gif
+![image](https://github.com/tnil25/ComfyUI-TJNodes/blob/master/images/pt_demo-ezgif.gif)
 
 ## User Guide
 
