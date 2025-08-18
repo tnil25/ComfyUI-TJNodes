@@ -1,6 +1,6 @@
 # About
 
-This custom node pack provides a suite of tools for compositing and visual effects workflows within ComfyUI. 
+This custom node pack (in development) provides a suite of tools for compositing and visual effects workflows within ComfyUI. 
 Most notably, it features a robust point tracker powered by Meta's CoTracker model, alongside other nodes 
 designed to streamline masking, tracking, and compositing tasks.
 
@@ -25,3 +25,8 @@ you can then create a custom mask polygon that can be used in your workflow.
    You can edit the mask by clicking 'Draw Mask' again.
 8. Click 'Export to ComfyUI' to send the tracked mask back to ComfyUI, it will automatically be updated in the node.
 9. You can also use 'Export As..." to save the mask to any location on your computer.
+
+## Tips
+
+* Point tracking works best when tracking a contrasting area of an image (eg. a button on a shirt, the corner of a window, a letter on a keyboard, etc.)
+  It will almost always fail if you attempt to track a flat color (eg. the sky, a flat wall, etc.)
