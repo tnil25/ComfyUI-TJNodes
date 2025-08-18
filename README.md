@@ -28,5 +28,7 @@ you can then create a custom mask polygon that can be used in your workflow.
 
 ## Tips
 
-* Point tracking works best when tracking a contrasting area of an image (eg. a button on a shirt, the corner of a window, a letter on a keyboard, etc.)
+* Point tracking works best when tracking contrasting areas of an image (eg. a button on a shirt, the corner of a window, a letter on a keyboard, etc.)
   It will almost always fail if you attempt to track a flat color (eg. the sky, a flat wall, etc.)
+* In order to track scale and rotation two points are needed to calculate the tracking data, the farther away these points are the better,
+  but make sure they are on the same plane of movement. Tracking will be inaccurate if for example one point is on the foreground and one on the background.
