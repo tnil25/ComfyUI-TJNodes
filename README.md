@@ -34,4 +34,4 @@ If you plan on using the same mask again, use 'Export As...' to save it somewher
 * Point tracking works best when tracking contrasting areas of an image (eg. a button on a shirt, the corner of a window, a letter on a keyboard, etc.)
   It will almost always fail if you attempt to track a flat color (eg. the sky, a flat wall, etc.)
 * In order to track scale and rotation two points are needed to calculate the tracking data, the farther away these points are the better.
-* When tracking rotation and scale make sure your points are on the same object or plane of movement. Tracking will be inaccurate if for example one point is on the foreground and another on the background.
+* When tracking rotation and scale make sure your points are on the same object or plane of movement. Tracking will be inaccurate if for example one point is on the foreground and one is on the background.
