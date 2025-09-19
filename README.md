@@ -4,6 +4,13 @@ This custom node pack (in development) provides a suite of tools for video inpai
 Most notably, it features a robust point tracker powered by Meta's CoTracker model, alongside other nodes 
 designed to streamline masking, tracking, and compositing tasks.
 
+# Installation
+1. Clone this repo into `custom_nodes` folder.
+2. Install dependencies: `pip install -r requirements.txt`
+   or if you use the portable install, run this in ComfyUI_windows_portable -folder:
+
+  `python_embeded\python.exe -m pip install -r ComfyUI\custom_nodes\ComfyUI-KJNodes\requirements.txt`
+
 # Point Tracker
 
 The Point Tracker functions similarly to tracking tools found in professional software like After Effects and Blender.
@@ -11,13 +18,6 @@ By tracking up to two points, it can calculate and generate position, rotation, 
 you can then create a custom mask polygon that can be used in your workflow.
 
 ![image](https://github.com/tnil25/ComfyUI-TJNodes/blob/master/images/pt_demo-ezgif.gif)
-
-# Installation
-1. Clone this repo into `custom_nodes` folder.
-2. Install dependencies: `pip install -r requirements.txt`
-   or if you use the portable install, run this in ComfyUI_windows_portable -folder:
-
-  `python_embeded\python.exe -m pip install -r ComfyUI\custom_nodes\ComfyUI-KJNodes\requirements.txt`
 
 ## User Guide
 
