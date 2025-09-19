@@ -9,7 +9,7 @@ designed to streamline masking, tracking, and compositing tasks.
 2. Install dependencies: `pip install -r requirements.txt`
    or if you use the portable install, run this in ComfyUI_windows_portable -folder:
 
-  `python_embeded\python.exe -m pip install -r ComfyUI\custom_nodes\ComfyUI-KJNodes\requirements.txt`
+  `python_embeded\python.exe -m pip install -r ComfyUI\custom_nodes\ComfyUI-TJNodes\requirements.txt`
 
 # Point Tracker
 
